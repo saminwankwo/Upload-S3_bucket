@@ -33,7 +33,9 @@ app.post('/images', upload.single('image'), async (req, res) => {
     console.log(req.body)
     console.log("result");
 
-    const result = await uploadFile(file)
+    const result = await uploadFile(file) // this uploads the file to s3 bucket
+
+    //this is to remove the image from my upload folder
     await unlinkFile(file.path)
     console.log(result)
 
