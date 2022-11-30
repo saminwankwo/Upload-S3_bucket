@@ -59,4 +59,5 @@ app.post('/images', upload.single('image'), async (req, res) => {
 //     res.send({imagePath: `/images/${result.Key}`})
 //   })
 
-app.listen(8080, () => console.log("listening on port 8080"))
+app.listen(8000, () => console.log("listening on port 8080"))
+
