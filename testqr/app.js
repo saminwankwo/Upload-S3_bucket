@@ -9,5 +9,5 @@ const QrGenerate = async text => {
 }
 
 // QrGenerate('https://www.credib.io/')
-QrGenerate('https://purplelinen.vercel.app')
+QrGenerate('https://play.google.com/store/apps/details?id=io.credib.mobileapp')
 // https://purplelinen.vercel.app
