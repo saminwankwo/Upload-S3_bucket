@@ -1,8 +1,6 @@
 const SibApiV3Sdk = require('sib-api-v3-sdk');
 const defaultClient = SibApiV3Sdk.ApiClient.instance;
 
-let apiKey = defaultClient.authentications['api-key'];
-apiKey.apiKey = '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';
 
 let apiInstance = new SibApiV3Sdk.TransactionalSMSApi();
 
